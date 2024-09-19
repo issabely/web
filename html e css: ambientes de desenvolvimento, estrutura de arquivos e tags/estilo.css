@@ -1,0 +1,38 @@
+:root{
+    --cor-de-fundo:#000000;
+    --cor-botao:#22D4FD;
+    --cor-texto:#F6F6F6;
+}
+body{
+    background: var(--cor-de-fundo);
+    font-family: "Krona One", sans-serif;
+}
+.principla{
+  display: inline-block;
+  align-items:first baseline;
+}
+.texto{
+    color: var(--cor-texto);
+    text-align: left;
+    display:flex;
+}
+.texto__titulo{
+    color: var(--cor-texto);
+    text-align: left;
+}
+.botao{
+    background: var(--cor-botao);
+    display: grid;
+    border-radius: 5px;
+    padding: 1em;
+    display: inline;
+    text-decoration: none;
+    margin-bottom: 1em;
+    color: var(--cor-de-fundo);
+}
+.container__imagem{
+    float: right;
+}
+.forte{
+    color: var(--cor-botao);
+}
