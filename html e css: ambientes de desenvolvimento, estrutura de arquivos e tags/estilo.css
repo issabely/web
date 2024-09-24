@@ -1,38 +1,24 @@
-:root{
-    --cor-de-fundo:#000000;
-    --cor-botao:#22D4FD;
-    --cor-texto:#F6F6F6;
+*{
+    margin: 0;
+    padding: 0;
 }
 body{
-    background: var(--cor-de-fundo);
-    font-family: "Krona One", sans-serif;
+    background-color: #000000;
+    color: #F6F6F6;
+    height: 100vh;
+    box-sizing: border-box;
 }
-.principla{
-  display: inline-block;
-  align-items:first baseline;
+
+.titulo-destaque{
+    color: #22D4FD;
 }
-.texto{
-    color: var(--cor-texto);
-    text-align: left;
-    display:flex;
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
 }
-.texto__titulo{
-    color: var(--cor-texto);
-    text-align: left;
-}
-.botao{
-    background: var(--cor-botao);
-    display: grid;
-    border-radius: 5px;
-    padding: 1em;
-    display: inline;
-    text-decoration: none;
-    margin-bottom: 1em;
-    color: var(--cor-de-fundo);
-}
-.container__imagem{
-    float: right;
-}
-.forte{
-    color: var(--cor-botao);
+
+.apresentacao__conteudo{
+    width: 615px;
 }
